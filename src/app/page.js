@@ -1,8 +1,8 @@
-import Grid from "./component/Grid";
-import Header from "./component/Header";
-import Footer from "./component/Footer";
-import Toggle from "./component/Toggle";
-import Up from "./component/Up";
+import Grid from "../component/Grid";
+import Header from "../component/Header";
+import Footer from "../component/Footer";
+import Toggle from "../component/Toggle";
+import Up from "../component/Up";
 
 
 
