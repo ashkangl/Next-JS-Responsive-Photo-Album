@@ -22,8 +22,10 @@ const Grid = () => {
     return(
         <div className="grid md:grid-cols-4 grid-cols-2 w-full md:gap-2 gap-1 pb-16">
             {images.map((img,index) => (
-            <div key={index}>
+            <div key={index} className="group relative overflow-hidden rounded-2xl shadow-lg">
                 <img src={img} className="h-full w-full object-cover transition duration-500 group-hover:scale-110" alt="picsum" />
+            
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition duration-500" />
             </div>
 
             ))}
